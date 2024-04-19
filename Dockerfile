@@ -4,7 +4,7 @@ EXPOSE 8081
 
 ENV APP_HOME /usr/src/app
 
-COPY target/shopping-cart-0.0.1-SNAPSHOT.war $APP_HOME/app.war
+COPY target/hello-world-war-1.0.0.war $APP_HOME/app.war
 
 WORKDIR $APP_HOME
 
