@@ -8,4 +8,5 @@ COPY target/hello-world-war-1.0.0.war $APP_HOME/app.war
 
 WORKDIR $APP_HOME
 
-ENTRYPOINT exec java -war app.war
+ENTRYPOINT exec java -jar app.war  # Corrected 'java -war' to 'java -jar'
+
